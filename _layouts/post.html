@@ -4,8 +4,8 @@ layout: default
 <h1>{{ page.title }}<small class='pull-right'>{{ page.date | date_to_string }}</small></h1>
 <div>
 	<h5 >
-		{% for cat in page.categories %} <a href="{{site.url}}/categories.html?name={{ cat }}" class="label label-default">{{ cat }}</a> {% endfor %}
-		{% for tag in page.tags %} <a href="{{site.url}}/tags.html?name={{ tag }}" class="label label-primary">{{ tag }}</a> {% endfor %}
+		{% for cat in page.categories %} <a href="{{site.url}}/categories/{{cat}}.html" class="label label-default">{{ cat }}</a> {% endfor %}
+		{% for tag in page.tags %} <a href="{{site.url}}/tags.html#{{ tag }}-ref" class="label label-primary">{{ tag }}</a> {% endfor %}
 	</h5>
 </div>
 <div >{{ content }}</div>
