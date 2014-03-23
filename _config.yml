@@ -1,3 +1,5 @@
 name: HC | BLOG
 markdown: redcarpet
 pygments: true
+safe: true
+url: "http://huangchaosuper.github.io/blog"
