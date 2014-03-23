@@ -19,7 +19,7 @@ title: HC Blog
 		<h2>{{ post.title }}</h2>
 		<p>{{ post.excerpt }}</p>
 		<p>
-			<a class="btn btn-default" href="{{ post.url }}" role="button">View details &raquo;</a>
+			<a class="btn btn-default" href="{{site.url}}{{ post.url }}" role="button">View details &raquo;</a>
 		</p>
 	</div>
 	{% endfor %}
