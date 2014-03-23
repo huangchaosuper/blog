@@ -12,10 +12,10 @@ layout: default
 <div class="post-blank post-pager">
 	<ul class="pager">
 		{% if page.previous %}
-		<li class="previous"><a href="{{site.url}}/{{ page.previous.url }}">&larr; Older</a></li>
+		<li class="previous"><a href="{{site.url}}{{ page.previous.url }}">&larr; Older</a></li>
 		{% endif %}
 		{% if page.next %}
-		<li class="next"><a href="{{site.url}}/{{ page.next.url }}">Newer &rarr;</a></li> 
+		<li class="next"><a href="{{site.url}}{{ page.next.url }}">Newer &rarr;</a></li> 
 		{% endif %}
 	</ul>
 </div>
