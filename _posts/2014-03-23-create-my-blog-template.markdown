@@ -14,4 +14,4 @@ tags:  jekyll template
 
 如果我长时间没回留言，请发邮件到我邮箱huangchaosuper@gmail.com
 
-  [1]: http://wowubuntu.com/markdown/
+  [1]: http://huangchaosuper.blog.51cto.com
