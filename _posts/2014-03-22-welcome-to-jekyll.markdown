@@ -1,24 +1,12 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "51CTO BLOG 迁移"
 date:   2014-03-22 05:26:44
-categories: jekyll update
+categories: tech
 ---
 
-You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
-To add new posts, simply add a file in the `_posts` directory that follows the convention: YYYY-MM-DD-name-of-post.ext.
+以前使用51cto的blog，虽然原创的东西不多，但是也有所不舍，决定在这里加入一个[链接][1]。
 
-Jekyll also offers powerful support for code snippets:
-
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll's GitHub repo][jekyll-gh].
-
-[jekyll-gh]: https://github.com/mojombo/jekyll
-[jekyll]:    http://jekyllrb.com
+随着时间的推移，慢慢的感觉，其实不许要写什么BLOG，网上都能找到答案。就这样慢慢的过了很多年。。
+现在，越来越感觉，很多东西网上已经没有现成的可以让我拿来主义了。因此，我决定此BLOG将只更新原创。我为人人，人人为我。
+[1]: http://wowubuntu.com/markdown/
