@@ -3,3 +3,4 @@ markdown: redcarpet
 pygments: true
 safe: true
 url: "http://huangchaosuper.github.io/blog"
+encoding: UTF-8
