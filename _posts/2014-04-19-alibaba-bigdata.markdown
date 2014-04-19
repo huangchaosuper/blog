@@ -3,6 +3,7 @@ layout: post
 title: "阿里巴巴大数据竞赛S1"
 date: 2014-04-19 16:59:00
 categories: tech
+tags: 大数据竞赛
 ---
 
 很荣幸，参加了alibaba的首届大数据竞赛。经过一个多月的浴血奋战，成功杀入Top500，即将进入第二赛季。
