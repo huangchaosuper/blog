@@ -8,7 +8,7 @@ layout: default
 		{% for tag in page.tags %} <a href="{{site.url}}/tags.html#{{ tag }}-ref" class="label label-primary">{{ tag }}</a> {% endfor %}
 	</h5>
 </div>
-<div >{{ content }}</div>
+<div class='well'>{{ content }}</div>
 <div class="post-blank post-pager">
 	<ul class="pager">
 		{% if page.previous %}
