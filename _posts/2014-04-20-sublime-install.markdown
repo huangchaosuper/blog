@@ -33,4 +33,4 @@ tags: installation
 
   [1]: http://www.sublimetext.com/2
   [2]: https://sublime.wbond.net/installation
-  [3]: http://huangchaosuper.github.io/image/sublime.png
+  [3]: http://huangchaosuper.github.io/blog/image/sublime.png
