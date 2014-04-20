@@ -35,7 +35,7 @@ tags: installation
 
 ##截图 :)
 
-<img src="{{ site.url }}/images/sublime.png" width='460'>
+<img src="{{ site.url }}/images/sublime.png" width='680'>
 
 
   [1]: http://www.sublimetext.com/2
