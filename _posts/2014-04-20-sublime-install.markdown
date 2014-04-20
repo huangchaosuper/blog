@@ -5,8 +5,8 @@ date: 2014-04-20 22:58:00
 categories: work
 tags: installation
 ---
-今天无意中知道了sublime这个编辑器，经过初步考察，感觉非常适合我。下面我将我使用的插件列表罗列在这里，方便更换工作环境之用。
 
+今天无意中知道了sublime这个编辑器，经过初步考察，感觉非常适合我。下面我将我使用的插件列表罗列在这里，方便更换工作环境之用
 
 下载地址 [sublime text 2][1]
 首先安装插件管理工具：[Package Control][2],安装方法很多，其实manual的方法属于万金油
@@ -37,9 +37,8 @@ tags: installation
 ---------
 ##截图 :)
 
-![sublime][3]
+<img src="{{ site.url }}/images/sublime.png" width='460'>
 
 
   [1]: http://www.sublimetext.com/2
   [2]: https://sublime.wbond.net/installation
-  [3]: http://huangchaosuper.github.io/blog/images/sublime.png
