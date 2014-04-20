@@ -13,7 +13,6 @@ tags: installation
 安装完Package Control之后，就可以进行其他插件的智能安装了
 
 ##插件：
-----------
 >AndyJS2：javascript 智能提示插件
 
 >AnglarJS：anglarJS 智能提示插件
@@ -34,7 +33,6 @@ tags: installation
 
 >Terminal：我的最爱，可以直接使用快捷键contro+T呼叫出控制台
 
----------
 ##截图 :)
 
 <img src="{{ site.url }}/images/sublime.png" width='460'>
