@@ -1,5 +1,7 @@
 name: HC | BLOG
-markdown: rdiscount
+markdown: redcarpet
+redcarpet:
+  extensions: ["fenced_code_blocks", "autolink", "tables", "strikethrough"]
 pygments: true
 safe: true
 url: "http://huangchaosuper.github.io/blog"

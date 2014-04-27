@@ -2,7 +2,7 @@
 layout: post
 title: "hadoop 2.4.0 集群安装全记录"
 date: 2014-04-24 12:58:00
-categories: tech
+categories: work tech
 tags: tools installation
 ---
 
@@ -310,6 +310,7 @@ sudo chkconfig ip6tables off
 ```
 
 ##分发配置文件
+分发配置文件
 ```shell
 <!--在主节点m1上将上面配置好的程序文件，复制分发到各个从节点上-->
 scp -r /opt/cloudhost/hadoop/etc/hadoop hadoop@S1:/opt/cloudhost/hadoop/etc/
@@ -330,6 +331,7 @@ hadoop namenode -format
 ```
 
 ##启动Yarn集群
+启动Yarn集群
 ```shell
 /opt/cloudhost/hadoop/sbin/start-yarn.sh
 ```
@@ -346,6 +348,7 @@ mr-jobhistory-daemon.sh start historyserver
 >JobHistory Server验证：http://M1:19888
 
 ##查看进程
+查看进程
 ```shell
 jps
 ```
@@ -363,4 +366,4 @@ hadoop fs -ls /data/wordcount
 hadoop jar /opt/cloudhost/hadoop/share/hadoop/mapreduce/hadoop-mapreduce-examples-2.4.0.jar wordcount /data/wordcount /output/wordcount
 ```
 
->以上为所有步骤，转载请注明出处huangchaosuper.github.io/blog
+###以上为所有步骤，转载请注明出处huangchaosuper.github.io/blog
