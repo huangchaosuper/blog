@@ -3,7 +3,7 @@ layout: post
 title: "hadoop 2.4.0 集群安装全记录"
 date: 2014-04-24 12:58:00
 categories: work tech
-tags: tools installation
+tags: tools
 ---
 
 之前一直在说Hadoop，也用了一些基于Hadoop的产品，但是对于Hadoop本身，或者说纯净的Hadoop一直没有折腾。所以利用了几天课余时间搭建了4台机器的Hadoop集群
