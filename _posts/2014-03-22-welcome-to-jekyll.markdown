@@ -10,4 +10,8 @@ tags: jekyll
 
 随着时间的推移，慢慢的感觉，其实不许要写什么BLOG，网上都能找到答案。就这样慢慢的过了很多年。。
 现在，越来越感觉，很多东西网上已经没有现成的可以让我拿来主义了。因此，我决定此BLOG将只更新原创。我为人人，人人为我。
+
+[这里][2]有一篇不错的文章.
+
 [1]: http://wowubuntu.com/markdown/
+[2]: http://yizeng.me/2013/05/10/setup-jekyll-on-windows/
