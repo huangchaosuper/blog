@@ -3,7 +3,7 @@ layout: post
 title:  "搭建我自己的Jekyll模板"
 date:   2014-03-23 21:27:00
 categories: tech
-tags:  jekyll template
+tags:  jekyll
 ---
 
 花了一天时间，折腾出了这个模板，可能还有些不是很完善的地方，日后慢慢完善吧。

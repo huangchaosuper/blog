@@ -1,9 +1,10 @@
 ---
+---
 layout: post
 title: "安装sublime编辑器"
 date: 2014-04-20 22:58:00
 categories: work
-tags: sublime
+tags: tools installation
 ---
 
 今天无意中知道了sublime这个编辑器，经过初步考察，感觉非常适合我。下面我将我使用的插件列表罗列在这里，方便更换工作环境之用
@@ -37,7 +38,7 @@ tags: sublime
 
 ##截图 :)
 
-<img src="{{ site.url }}/images/sublime.png" width='680'>
+<img class="img-responsive img-thumbnail" src="{{ site.url }}/images/sublime.png">
 
 
   [1]: http://www.sublimetext.com/2
