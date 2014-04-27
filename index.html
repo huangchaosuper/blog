@@ -12,12 +12,14 @@ title: HC Blog
 </div>
 <div class="row">
 	{% for post in site.posts %}
-	<div class="col-6 col-sm-6 col-lg-4">
-		<h4><a href="{{site.url}}{{ post.url }}">{{ post.title }}</a></h4>
-		<p>{{ post.excerpt }}</p>
-		<p>
-			<a class="btn btn-default" href="{{site.url}}{{ post.url }}" role="button">View details &raquo;</a>
-		</p>
+	<div class="col-sm-6 col-md-4">
+		<div class="thumbnail caption">
+			<h4><a href="{{site.url}}{{ post.url }}">{{ post.title }}</a></h4>
+			<p>{{ post.excerpt }}</p>
+			<p>
+				<a class="btn btn-default" href="{{site.url}}{{ post.url }}" role="button">View details &raquo;</a>
+			</p>
+		</div>
 	</div>
 	{% endfor %}
 </div>
