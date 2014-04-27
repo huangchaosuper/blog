@@ -4,6 +4,7 @@ redcarpet:
   extensions: ["fenced_code_blocks", "autolink", "tables", "strikethrough"]
 pygments: true
 safe: true
-url: "http://huangchaosuper.github.io/blog"
+#url: "http://huangchaosuper.github.io/blog"
+url: "http://localhost:4000"
 encoding: UTF-8
 excerpt_separator: "\n"

@@ -7,8 +7,10 @@ title: HC Blog
 	<button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">Toggle nav</button>
 </p>
 <div class="jumbotron">
-	<h2><a href="{{site.url}}{{ site.posts[0].url }}">{{ site.posts[0].title }}</a></h2>
-	<p>{{ site.posts[0].excerpt }}</p>
+	<div class="caption">
+		<h2><a href="{{site.url}}{{ site.posts[0].url }}">{{ site.posts[0].title }}</a></h2>
+		<p>{{ site.posts[0].excerpt }}</p>
+	</div>
 </div>
 <div class="row">
 	{% for post in site.posts %}
@@ -16,6 +18,7 @@ title: HC Blog
 		<div class="thumbnail">
 			<div class="caption">
 				<h4><a href="{{site.url}}{{ post.url }}">{{ post.title }}</a></h4>
+				<hr>
 				<p>{{ post.excerpt }}</p>
 			</div>
 		</div>

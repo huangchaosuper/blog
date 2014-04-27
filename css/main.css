@@ -12,7 +12,12 @@ body {
 footer {
   padding: 30px 0;
 }
-
+.thumbnail .caption{
+  height:180px;
+  overflow-y:hidden;
+  color:#555;
+  text-align: center;
+}
 /*
  * Off Canvas
  * --------------------------------------------------

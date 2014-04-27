@@ -3,7 +3,7 @@ layout: post
 title: "Jekyll代码高亮Troubeshooting"
 date: 2014-04-20 22:58:00
 categories: tech
-tags: jekyll
+tags: jekyll ruby
 ---
 
 提交带有code的代码片段时，发现Jekyl的lhighlight失效。经过持续3个小时的折腾，终于搞明白原理，并且把这个问题fix了

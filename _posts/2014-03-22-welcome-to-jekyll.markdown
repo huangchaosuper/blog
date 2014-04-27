@@ -3,7 +3,7 @@ layout: post
 title:  "51CTO BLOG 迁移"
 date:   2014-03-22 05:26:44
 categories: tech
-tags: jekyll
+tags: jekyll ruby
 ---
 
 以前使用51cto的blog，虽然原创的东西不多，但是也有所不舍，决定在这里加入一个[链接][1]。
