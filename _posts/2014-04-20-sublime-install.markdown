@@ -1,5 +1,4 @@
 ---
----
 layout: post
 title: "安装sublime编辑器"
 date: 2014-04-20 22:58:00
