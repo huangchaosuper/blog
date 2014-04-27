@@ -7,6 +7,7 @@ tags: jekyll
 ---
 Pygments是一个实现的格式化高亮代码的Python库。包含四个模块：`lexer`,`filters`,`formatter`,`style`
 
+http://pygments.org/
 
 >Diff (Lexer)
 
