@@ -2,7 +2,7 @@
 layout: post
 title: "hadoop 2.4.0 集群安装全记录"
 date: 2014-04-24 12:58:00
-categories: work tech
+categories: tech
 tags: tools installation
 ---
 
