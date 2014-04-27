@@ -37,7 +37,7 @@ tags: tools installation
 
 ##截图 :)
 
-<img src="{{ site.url }}/images/sublime.png">
+<img class="img-responsive img-thumbnail" src="{{ site.url }}/images/sublime.png">
 
 
   [1]: http://www.sublimetext.com/2
