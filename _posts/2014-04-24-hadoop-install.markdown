@@ -363,4 +363,4 @@ hadoop fs -ls /data/wordcount
 hadoop jar /opt/cloudhost/hadoop/share/hadoop/mapreduce/hadoop-mapreduce-examples-2.4.0.jar wordcount /data/wordcount /output/wordcount
 ```
 
-###以上为所有步骤，转载请注明出处huangchaosuper.github.io/blog
+>以上为所有步骤，转载请注明出处huangchaosuper.github.io/blog
