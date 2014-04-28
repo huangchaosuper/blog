@@ -10,7 +10,7 @@
 <meta name="author" content="huangchaosuper">
 <link rel="shortcut icon" href="images/favicon.ico">
 
-<title>{{ site.name }} - 极客世界</title>
+<title>{{ site.name }}</title>
 
 <!-- Bootstrap core CSS<link href="{{site.url}}/bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet"> -->
 <link href="{{site.url}}/css/bootstrap.cerulean.min.css" rel="stylesheet">
@@ -43,6 +43,7 @@
 					{% for category in site.categories %}
 					<li><a href="{{ site.url }}/categories/{{category[0]}}.html">{{category[0] | upcase}}</a></li>
 					{% endfor %}
+					<li><a href="{{ site.url }}/geek.html">GEEK</a></li>
 					<li><a href="/">ABOUT</a></li>
 				</ul>
 			</div>
