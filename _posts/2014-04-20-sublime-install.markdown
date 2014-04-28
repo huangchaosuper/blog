@@ -35,9 +35,19 @@ tags: tools
 
 >Terminal：我的最爱，可以直接使用快捷键contro+T呼叫出控制台
 
+##右键菜单：
+>运行中输入 regedit 打开注册表
+
+>在HKEY_CLASSES_ROOT/*/shell/ 下新建’项’ ,名称自己觉得.我用的是Sublime Text
+
+>在 Sublime Text 下 新建’项’ 名字:command (这个貌似不可以修改)
+
+>点击  command ,在右边的(默认),双击填入下面的值: 
+>>D:\Program Files\Sublime Text 2\sublime_text.exe "%1"
+
 ##截图 :)
 
-<img class="img-responsive img-thumbnail" src="{{ site.url }}/images/sublime.png">
+<img class="img-responsive img-thumbnail" src="{{ site.url }}/resources/sublime.png">
 
 
   [1]: http://www.sublimetext.com/2
