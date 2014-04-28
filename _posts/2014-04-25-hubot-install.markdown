@@ -34,12 +34,13 @@ bin/hubot
 
 
 ##开启irc-hubot机器人
-
+{% highlight Bash %}
 HUBOT_IRC_SERVER=servername.domain \
   HUBOT_IRC_ROOMS="#robot" \
   HUBOT_IRC_NICK="Sara" \
   HUBOT_IRC_UNFLOOD="true" \
   bin/hubot -a irc --name sara
+{% endhighlight %}
 
 [1]: https://hubot.github.com/
 [2]: https://gist.github.com/isaacs/579814
