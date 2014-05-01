@@ -6,14 +6,16 @@ title: Geek's World
 <p class="pull-right visible-xs">
   <button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">Toggle nav</button>
 </p>
+<h2>RSS Reader Service</h2>
 <hr/>
 <div id="rss_reader" class="list-group" data-bind="foreach: docs">
   <a data-bind="attr: { href: link}" target='_blank' class="list-group-item"><span class="label label-primary" data-bind="text: typeId"></span> <span class="badge" data-bind="text: author"></span><span data-bind="text: title"></span></a>
 </div>
 <ul class="pager">
   <li class="previous"><a href="#" id="rss_reader_all">all</a></li>
-  <li class="previous"><a href="#" id="rss_reader_tech">tech</a></li>
   <li class="previous"><a href="#" id="rss_reader_news">news</a></li>
+  <li class="previous"><a href="#" id="rss_reader_tech">tech</a></li>
+  <li class="previous"><a href="#" id="rss_reader_entertainment">entertainment</a></li>
   <li class="next"><a href="#" id="rss_reader_next">&rarr;</a></li>
   <li class="next"><a href="#" id="rss_reader_first">&Omega;</a></li>
   <li class="next"><a href="#" id="rss_reader_preview">&larr;</a></li>

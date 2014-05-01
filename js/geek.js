@@ -1,15 +1,11 @@
 $(document).ready(function () {
-	$.ajax({
-		url:"http://huangchaosuper.duapp.com/service/rss/trigger",
-		async:true,
-		crossDomain : true,
-	});
 	var rssReaderViewModel = new viewModel();
 	ko.applyBindings(rssReaderViewModel);
 	rssReaderViewModel.tech();
 	$("#rss_reader_all").click({ handler: rssReaderViewModel.all });
-	$("#rss_reader_tech").click({ handler: rssReaderViewModel.tech });
 	$("#rss_reader_news").click({ handler: rssReaderViewModel.news });
+	$("#rss_reader_tech").click({ handler: rssReaderViewModel.tech });
+	$("#rss_reader_entertainment").click({ handler: rssReaderViewModel.entertainment });
 	$("#rss_reader_preview").click({ handler: rssReaderViewModel.preview });
 	$("#rss_reader_first").click({ handler: rssReaderViewModel.first });
 	$("#rss_reader_next").click({ handler: rssReaderViewModel.next });
@@ -27,6 +23,10 @@ function viewModel() {
 	};
 	self.tech = function () {
 		typeId="tech";
+		self.getInformationFromRssReader(rangeFrom,rangeSize,typeId);
+	};
+	self.entertainment = function () {
+		typeId="entertainment";
 		self.getInformationFromRssReader(rangeFrom,rangeSize,typeId);
 	};
 	self.news = function () {
