@@ -6,12 +6,7 @@ title: HC Blog
 <p class="pull-right visible-xs">
 	<button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">Toggle nav</button>
 </p>
-<div class="jumbotron">
-	<div class="caption">
-		<h2><a href="{{site.url}}{{ site.posts[0].url }}">{{ site.posts[0].title }}</a></h2>
-		<p>{{ site.posts[0].excerpt }}</p>
-	</div>
-</div>
+<div id="highchart" ></div>
 <div class="row">
 	{% for post in site.posts %}
 	<div class="col-sm-6 col-md-4">
@@ -25,4 +20,9 @@ title: HC Blog
 	</div>
 	{% endfor %}
 </div>
+
+<script src="http://code.highcharts.com/highcharts.js"></script>
+<script src="http://code.highcharts.com/highcharts-3d.js"></script>
+<script src="http://code.highcharts.com/modules/exporting.js"></script>
+<script src="{{site.url}}/js/index.js"></script>
 <!--/row-->
