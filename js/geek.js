@@ -23,13 +23,16 @@ function viewModel() {
 	};
 	self.tech = function () {
 		typeId="tech";
+		rangeFrom=0;
 		self.getInformationFromRssReader(rangeFrom,rangeSize,typeId);
 	};
 	self.entertainment = function () {
 		typeId="entertainment";
+		rangeFrom=0;
 		self.getInformationFromRssReader(rangeFrom,rangeSize,typeId);
 	};
 	self.news = function () {
+		rangeFrom=0;
 		typeId="news";
 		self.getInformationFromRssReader(rangeFrom,rangeSize,typeId);
 	};
