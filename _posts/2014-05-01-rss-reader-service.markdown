@@ -172,10 +172,10 @@ http://huangchaosuper.duapp.com/service/rss/read?from=0&to=1&typeId=news
 
 <img class="img-responsive img-thumbnail" src="{{ site.url }}/resources/rss_reader_service.png">
 
-[1]:http://huangchaosuper.duapp.com/service
-[2]:http://{{ site.url }}/geek.html
-[3]:http://jquery.com
-[4]:http://getbootstrap.com
-[5]:http://knockoutjs.com/
-[6]:http://bower.io/
-[7]:https://github.com/huangchaosuper/blog
+[1]: http://huangchaosuper.duapp.com/service
+[2]: {{site.url}}/geek.html
+[3]: http://jquery.com
+[4]: http://getbootstrap.com
+[5]: http://knockoutjs.com/
+[6]: http://bower.io/
+[7]: https://github.com/huangchaosuper/blog
