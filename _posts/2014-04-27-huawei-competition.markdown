@@ -10,5 +10,6 @@ tags: 竞赛
 
 ##报名成功
 :)
+首次线上竞赛移至2014.05.05
 
 [1]:http://www.huaweistar.com/

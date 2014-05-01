@@ -7,20 +7,16 @@ title: Geek's World
   <button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">Toggle nav</button>
 </p>
 <hr/>
-<div class="list-group">
-  <a href="#" class="list-group-item"><span class="label label-primary">news</span> <span class="badge">新华日报</span>Cras justo odio</a>
-  <a href="#" class="list-group-item"><span class="label label-primary">tech</span> <span class="badge">CSDN</span>Dapibus ac facilisis in</a>
-  <a href="#" class="list-group-item"><span class="label label-primary">tech</span> <span class="badge">CSDN</span>Dapibus ac facilisis in</a>
-  <a href="#" class="list-group-item"><span class="label label-primary">tech</span> <span class="badge">CSDN</span>Dapibus ac facilisis in</a>
-  <a href="#" class="list-group-item"><span class="label label-primary">tech</span> <span class="badge">CSDN</span>Dapibus ac facilisis in</a>
-  <a href="#" class="list-group-item"><span class="label label-primary">tech</span> <span class="badge">CSDN</span>Dapibus ac facilisis in</a>
-  <a href="#" class="list-group-item"><span class="label label-primary">tech</span> <span class="badge">CSDN</span>Dapibus ac facilisis in</a>
-  <a href="#" class="list-group-item"><span class="label label-primary">tech</span> <span class="badge">CSDN</span>Dapibus ac facilisis in</a>
+<div id="rss_reader" class="list-group" data-bind="foreach: docs">
+  <a data-bind="attr: { href: link}" target='_blank' class="list-group-item"><span class="label label-primary" data-bind="text: typeId"></span> <span class="badge" data-bind="text: author"></span><span data-bind="text: title"></span></a>
 </div>
 <ul class="pager">
-  <li><a href="#">&larr;</a></li>
-  <li><a href="#">&Omega;</a></li>
-  <li><a href="#">&rarr;</a></li>
+  <li class="previous"><a href="#" id="rss_reader_all">all</a></li>
+  <li class="previous"><a href="#" id="rss_reader_tech">tech</a></li>
+  <li class="previous"><a href="#" id="rss_reader_news">news</a></li>
+  <li class="next"><a href="#" id="rss_reader_next">&rarr;</a></li>
+  <li class="next"><a href="#" id="rss_reader_first">&Omega;</a></li>
+  <li class="next"><a href="#" id="rss_reader_preview">&larr;</a></li>
 </ul>
 <hr/>
 <div id="disqus_thread"></div>
@@ -37,5 +33,5 @@ title: Geek's World
 </script>
 <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-
+<script src="{{site.url}}/js/geek.js"></script>
 <!--/row-->

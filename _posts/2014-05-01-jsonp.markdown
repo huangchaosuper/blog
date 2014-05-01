@@ -1,0 +1,25 @@
+---
+layout: post
+title: "关于jsonp"
+date: 2014-05-01 13:59:00
+categories: tech
+tags: js
+---
+
+jsonp是json的一种扩展，可以解决跨域访问的问题，不过就我现在的了解，jsonp完全没有必要。
+
+跨域访问，是浏览器刻意为之的一种安全策略，如果编写程序没有特别声明，会出现`Origin XX is not allowed by Access-Control-Allow-Origin.`这种错误。
+
+其实按照其提示，解决就好了。在response的header里面加入`Access-Control-Allow-Origin`头即可。 
+
+{% highlight JavaScript %}
+Response.AddHeader("Access-Control-Allow-Origin", "*");
+<!--或指定域名下可以访问：-->
+Response.AddHeader("Access-Control-Allow-Origin", "http://www.163.com:80");
+{% endhighlight %}
+
+很多朋友可能发现仍然报错，如果使用JQuery，客户端也要做一些小的修改
+
+`crossDomain : true`
+
+需要将这个标志设置为true。

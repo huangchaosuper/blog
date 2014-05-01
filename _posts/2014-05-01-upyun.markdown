@@ -1,0 +1,15 @@
+---
+layout: post
+title: "upyun开发者大赛"
+date: 2014-05-01 16:59:00
+categories: tech
+tags: 竞赛
+---
+
+upyun开发者大赛，[报名地址][1]，活动日期：2014.04.14-2014.06.25
+
+##报名成功
+:)
+
+
+[1]:https://www.upyun.com/op/dev/
