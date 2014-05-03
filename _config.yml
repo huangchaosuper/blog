@@ -4,8 +4,8 @@ redcarpet:
   extensions: ["fenced_code_blocks", "autolink", "tables", "strikethrough"]
 pygments: true
 safe: true
-#url: "http://blog.huangchaosuper.cn"
+url: "http://blog.huangchaosuper.cn"
 about: "http://huangchaosuper.cn"
-url: "http://localhost:4000"
+#url: "http://localhost:4000"
 encoding: UTF-8
 excerpt_separator: "\n"
