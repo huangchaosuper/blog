@@ -1,0 +1,46 @@
+---
+layout: post
+title: "瀑布走向敏捷，DevOps Team应运而生"
+date: 2014-05-02 11:00:00
+categories: tech
+tags: devops
+---
+
+瀑布走向敏捷，DevOps Team应运而生
+
+##背景
+
+>时间追溯到2012年初，那时候大家还在兴致勃勃的谈论IaaS云，公司总部一次比较大的结构调整拉开了DevOps的序幕。
+
+公司总部决定进行瀑布到敏捷开发模式的转型，将横跨全球多个部门和时区的多个关联项目合并，收归总部统一管理。按照Global Team的原则重新组织人员结构。DevOps作为一个Team正式被引入
+
+##变化
+
+>成立DevOps团队
+
+主要负责E2E测试数据支持、持续集成、开发工具孵化和技术探索。不参与Test Case执行，不提交Issue or Bug or CR，不进行生产环境部署。
+
+>DevOps组织SoS会议
+
+DevOps的Team Manager组织Scrum of Scrums会议，所有Active的Scrum Master和Business Manager参加
+
+>PM与PM分离
+
+基于瀑布模式的组织架构依然保留，People Manager和Project Manager完全分离，弱化Project Manager的实际概念。
+
+>Scrum Master任期制
+
+按照Feature成立Scrum Team，每个Scrum Team的Scrum Master从Scrum Team内部产生。Release结束后，Scrum Team解散，等待新的Scrum Team成立，并重新产生Scrum Master。
+
+>One Global Team
+
+所有团队必须横跨美洲、欧洲和亚洲
+
+##总结
+
+以上描述可能有的读者注意到，DevOps的Team Manager的层级比较高`DevOps Team Manager = People Manager`，我猜大约等价于国内公司的`项目总监`。
+
+[下一个章节][1]我将详细介绍DevOps在整个组织架构中的位置
+
+[1]: {% post_url devops/2014-05-03-devops-2 %}
+

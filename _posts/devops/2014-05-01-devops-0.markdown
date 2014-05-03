@@ -1,0 +1,69 @@
+---
+layout: post
+title: "走进DevOps"
+date: 2014-05-01 21:00:00
+categories: tech
+tags: devops
+---
+
+最近看到很多关于DevOps的文章，作为在这一领域摸爬滚打多年的笔者来说，也想写一些篇文章，介绍一下笔者对DevOps的理解
+
+##什么是DevOps
+
+###百度百科
+
+>DevOps（英文Development和Operations的组合）是一组过程、方法与系统的统称，用于促进开发（应用程序/软件工程）、技术运营和质量保障（QA）部门之间的沟通、协作与整合。它的出现是由于软件行业日益清晰地认识到：为了按时交付软件产品和服务，开发和运营工作必须紧密合作。
+
+
+##维基百科
+
+>DevOps (a portmanteau of development and operations) is a software development method that stresses communication, collaboration and integration between software developers and information technology (IT) operations professionals.DevOps is a response to the interdependence of software development and IT operations. It aims to help an organization rapidly produce software products and services.
+
+###笔者的理解
+
+>虽然百度百科和维基百科都有了明确定义，但是笔者还是觉得有必要阐述一下自己的理解。
+
+<img class="center-block img-responsive img-thumbnail" src="{{ site.url }}/resources/Devops.svg">
+
+通过上图可以清晰的发现，DevOps按照字面意思翻译为`开发运维`甚至`敏捷运维`并不恰当，因为`QA`完全没有得到体现。
+
+相比较而言，百度百科的描述更加贴切，但是其描述终究没有落地。换句话说，现在更多的描述围绕DevOps`是什么`和`为什么`却没有阐述`怎么做`。
+
+很多人可能会搬出Cloud Technology Partners公司的副总裁兼首席架构师Mike Kavis的话："DevOps并不是一个人，一个角色或者一个头衔。即使你可以声称自己是一个DevOps工程师，但是这仅是你自己的看法，实际上你并不是。"
+
+或者其另外一句话："DevOps是一种文化转变，或者说是一个鼓励更好地交流和协作（即团队合作）以便于更快地构建可靠性更高、质量更好的软件的运动。"
+
+笔者暂时不评论以上的表述是否恰当，至少其表述并没有告诉大家`怎么做`，用一句当前比较流行的话说就是不接地气。
+
+另外，如果DevOps是一场`运动`，那么必然有运动的发起者，发起者是否可以将自己称为DevOps工程师？
+
+##为什么需要DevOps
+
+>DevOps与`敏捷开发的兴起`，`云计算尘埃落定`和`持续集成深入人心`有密不可分的联系。
+
+"话说天下大势，分久必合，合久必分"，笔者认为这句话用在此处非常恰当。
+
+R&D工程师、QA工程师、TO工程师彼此独立时间太久，彼此之间的隔阂越来越严重，严重影响到了软件交付，已经到了分久必合的时刻。（不知道这里把秦始皇比做DevOps的发起者是否合适）
+
+补充一句，现在很多人对敏捷开发的理解是缩减成本，提高效率。笔者认为DevOps作为敏捷的心脏，保证软件质量永远放在首位。
+
+##如何让DevOps落地
+
+>作为某航母级跨国公司中国区仅有的3位DevOps成员之一，笔者将分以下几个章节，带您进入可执行的DevOps。
+
+* [瀑布走向敏捷，DevOps Team应运而生]({% post_url devops/2014-05-02-devops-1 %})
+* [DevOps在整个组织架构中的位置]({% post_url devops/2014-05-03-devops-2 %})
+* 谁才是DevOps的合适人选
+* 寻找DevOps的切入点
+* 让DevOps作为Agile心脏开始跳动
+* 技术与业务并举的DevOps
+* 应对DevOps的人员变动
+
+>DevOps那些有趣的事
+
+* 当DevOps遇上了构架师
+* 当DevOps遇上了业务经理
+* 当DevOps遇上了开发工程师
+* 当DevOps遇上了自动化测试工程师
+* 当DevOps遇上了运维工程师
+

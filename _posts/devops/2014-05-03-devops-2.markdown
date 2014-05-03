@@ -1,0 +1,78 @@
+---
+layout: post
+title: "DevOps在整个组织架构中的位置"
+date: 2014-05-03 13:00:00
+categories: tech
+tags: devops
+---
+
+DevOps在整个组织架构中的位置与构成，是DevOps能否成功的关键
+
+##位置
+
+DevOps作为协调开发、测试和运维的关键角色，在组织架构中必然要有一定的话语权，否则很难做到各个部门的推进与协调。
+
+但是如果将DevOps定位为`精英俱乐部`，也将不利于整个组织架构的稳定性。
+
+正如在上一篇文章中笔者所述，`DevOps Team Manager = People Manager`或者说`DevOps Team Member = Scrum Master`是比较合适的定位。
+
+要成为DevOps Team Manager，首先要是People Manager，至少可以和其他People Manager在人员调配上可以有效沟通。
+
+作为DevOps Team Member，属于一线员工；而Scrum Master在很多人的认知中仍然类似瀑布模式的项目经理（虽然不是）。
+
+因此如何让DevOps与Scrum Master进行有效沟通，是需要各个组织部门需要考虑的问题。
+
+笔者所在DevOps Team，对QA来说`掌握E2E测试数据`，对DEV来说`控制代码版本`，对TO来说`掌握版本的更新记录`。不谦虚的描述是Scrum Master都要让你三分，因此在整个组织架构中的角色尤其重要。
+
+正因为如此重要的角色，所以其成员构成也有必要单独拿出来介绍
+
+##构成
+
+* DevOps Team Manager
+
+首先要是People Manager，并且对业务、技术和管理都能够做到全局把控。
+
+* DevOps Team Consultant
+
+`部门首席构架师`或`CTO`有效的帮助DevOps Team Manager协调各方面工作，并起到一定监督作用。
+
+* DevOps Team Member
+
+工作经历中至少从事过QA、DEV、TO中至少2种角色，总人数控制在20人以内（笔者所在部门全球只有15位成员）。
+
+需要包含对业务精通的成员
+
+需要包含解决方案专家
+
+最重要的一点，需要有持续学习的态度
+
+>读者可能已经注意到，DevOps的构成和在公司中的位置很容易变成`精英俱乐部`。因此要对DevOps的功能有一些规定和限制
+
+##功能
+
+>义务
+
+* 面向QA成员，提供E2E测试数据支持
+
+* 面向DEV成员，构建持续集成解决方案，进行版本控制
+
+* 面向TO成员，提供版本更新记录
+
+* 面向整个部门，开发工具和技术探索
+
+>权利
+
+* 不参与Test Case执行
+
+* 不提交Issue or Bug or CR
+
+* 不进行生产环境部署
+
+
+##总结
+
+可能有的读者终于找到了组织，不过还是希望大家静下心来想一想，什么样的人适合DevOps
+
+下一篇文章，笔者将阐述:谁才是DevOps的合适人选
+
+
