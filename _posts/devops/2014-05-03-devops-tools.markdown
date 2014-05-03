@@ -6,19 +6,31 @@ categories: tech
 tags: devops
 ---
 
+DevOps工具集，陆续更新。。。
+
 ##持续集成（CI）
 
->Jenkins
+>[Jenkins](http://jenkins-ci.org/)
 
->Hudson
+<img class="img-responsive img-thumbnail" src="{{ site.url }}/resources/jenkins.png">
 
->Grunt
+>[Hudson](http://hudson-ci.org/)
 
->Travis-ci
+<img class="img-responsive img-thumbnail" src="{{ site.url }}/resources/hudson.png">
+
+>[Grunt](http://gruntjs.com/)
+
+<img class="img-responsive img-thumbnail" src="{{ site.url }}/resources/grunt.png">
+
+>[Travis-ci](https://travis-ci.org/)
+
+<img class="img-responsive img-thumbnail" src="{{ site.url }}/resources/travis-ci.png">
 
 ##自动化测试
 
->TestNG
+>[TestNG](http://testng.org/doc/index.html)
+
+<img class="img-responsive img-thumbnail" src="{{ site.url }}/resources/testng.png">
 
 >Selenum
 
