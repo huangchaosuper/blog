@@ -60,6 +60,7 @@ tags: devops
 * 应对DevOps的人员变动
 
 >响应号召，添加工具集blog一篇
+
 * [DevOps工具集]({% post_url devops/2014-05-03-devops-tools %})
 
 >DevOps那些有趣的事
