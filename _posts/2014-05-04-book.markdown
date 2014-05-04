@@ -1,0 +1,47 @@
+---
+layout: post
+title: "购书归来"
+date: 2014-05-04 22:59:00
+categories: life
+tags: 大数据
+---
+
+去上海交大逛了一圈，买了几本数学相关的图书。大学的氛围还是那么美妙，没事要经常去大学校园走走
+
+##向数据科学家进军
+
+看到最近科技公司炒得比较热的职业有`DevOps`和`数据科学家`。
+
+作为已经有2年多`DevOps`经验的我来说，`数据科学家`对我的诱惑着实不小。为了实现这一理想，最近参加了阿里巴巴的大数据竞赛，感觉收获颇丰。
+
+于是，利用5.1小长假，又到上海交大买了几本数学相关的书，准备全身心投入其中。
+
+####高等数学
+
+>算上这一次，这是我第3套高数了，第一套是高中时为了参加数学奥林匹克竞赛买的，当时是第四版。第二套是大学里发的第五版。今天从交大淘来的是第六版。我和高数真有缘分啊～～
+
+<img class="img-responsive img-thumbnail" src="{{ site.url }}/resources/gaoshu.png">
+
+####高等代数
+
+>记得大学里学的是线性代数，虽然当时感觉学的还可以，貌似现如今都还给老师了。对于如此重要的一门课程，我决定重新捡起来
+
+<img class="img-responsive img-thumbnail" src="{{ site.url }}/resources/gaodai.png">
+
+####概率论与数理统计
+
+>记得大学里学过的概率只有很薄的一本，想必必然不是正统，对于数据科学家这个目标，个人认为概率是重中之重，于是乎，买之～
+
+<img class="img-responsive img-thumbnail" src="{{ site.url }}/resources/gailv.png">
+
+####数据挖掘理论与应用
+
+>我记得大学毕业的时候这本书我没有卖，因为当年就感觉将来会用得到，可是现如今仍然不知我的数据挖掘课本哪去了。其实在交大，这本数据挖掘也仅有一本，估计很多人都吧数据挖掘留下来了吧
+
+<img class="img-responsive img-thumbnail" src="{{ site.url }}/resources/shujuwajue.png">
+
+####最优化理论与算法
+
+>大体看了一下介绍，是研究生课程。介绍对算法如何测评，蛮好的一本书，于是收入囊中
+
+<img class="img-responsive img-thumbnail" src="{{ site.url }}/resources/zuiyouhua.png">
