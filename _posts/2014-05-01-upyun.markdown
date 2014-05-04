@@ -23,4 +23,4 @@ npm install node-for-upyun
 
 [1]:https://www.upyun.com/op/dev/
 [2]:https://gitcafe.com/huangchaosuper/node-for-UPYUN
-[3]:http://upyun.gitcafe.com/projects
+[3]:http://upyun.gitcafe.com/projects?category=top50
