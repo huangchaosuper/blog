@@ -1,0 +1,29 @@
+---
+layout: post
+title: "RTClient归来"
+date: 2014-05-06 00:18:00
+categories: life
+tags: tools
+---
+
+RTClient重新发布到http://rtclient.huangchaosuper.cn
+
+##RTClient
+
+整理了一下以前的资料，发现2012年weibo正火的时候写了一个RTClient，微博自动发送小程序，于是今天又花了点时间，将其重新部署到现在的这个域名地址，顺便说一句，这个域名我一次买了10年，应该不会再出现续费的问题了。瓦咔咔
+
+功能很简单，就是调用了新浪微博的API，创建了一个本地应用，使用C#的后台backgroundwork，定时出发，自动发送邮件。
+
+另外，还整理出来了以前写的一个重量级的WATF，还有个别人写的捕鱼达人小游戏。准备有时间，一并发布到github，全部开源。
+
+##截图
+
+<img class="img-responsive img-thumbnail" src="{{ site.url }}/resources/rtclient-1.jpg">
+
+<img class="img-responsive img-thumbnail" src="{{ site.url }}/resources/rtclient-2.jpg">
+
+<img class="img-responsive img-thumbnail" src="{{ site.url }}/resources/rtclient-3.jpg">
+
+<img class="img-responsive img-thumbnail" src="{{ site.url }}/resources/rtclient-4.jpg">
+
+<img class="img-responsive img-thumbnail" src="{{ site.url }}/resources/rtclient-5.jpg">
