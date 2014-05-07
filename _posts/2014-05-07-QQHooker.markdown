@@ -1,0 +1,27 @@
+---
+layout: post
+title: "QQHooker 键盘记录器"
+date: 2014-05-07 20:18:00
+categories: tech
+tags: tools
+---
+
+QQHooker I/O级别键盘记录器，[源代码][1]
+
+##QQHooker的故事
+
+话说一个朋友，怀疑自己的婚姻遭遇第三者，于是找到我，希望可以帮忙写个程序捕获QQ的密码。从朋友的角度出发，我答应了下来，克服了重重技术困难，最终实现了其功能。不料，这个善意的举动反而害了我的朋友。。。缅怀一下
+
+##QQHooker的技术
+
+很简单的一个功能，就是做键盘按键记录。如果您第一个想法和我一样，调用一下windows的消息，把键盘API给hook出来，那您就错了。
+
+QQ自2008版本之后，就加入了混淆机制，通过windows的消息API获取出来的键盘消息带有混淆数据，完全不能使用。因此笔者尝试采用I/O驱动级别的API获取键盘信息，最终成功实现了需求。
+
+RoseHA为windows service，大家都知道，windows service注册之后，开机马上执行，但是需要具有极其的管理员权限才可以安装此软件。
+
+##QQHooker重要声明
+
+笔者强烈反对，您将此软件用于非法目的，让我想起了我的那个朋友，反而害了他。
+
+[1]:https://github.com/huangchaosuper/QQhooker
