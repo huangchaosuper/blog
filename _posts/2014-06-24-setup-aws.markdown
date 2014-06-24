@@ -1,0 +1,47 @@
+---
+layout: post
+title: "在AWS上搭建代理服务器和VPN"
+date: 2014-06-24 11:44:00
+categories: life tech
+tags: devops
+---
+
+以后可能不能再使用公司免费的VPN福利了，因此笔者本着未雨绸缪的态度，自己动手在AWS上搭建了HTTP代理服务器和VPN
+
+#申请AWS EC2主机
+
+对于新用户而言，有一年的最小实例[免费方案](http://aws.amazon.com/cn/free/)，这种好事，为何不用呢。
+
+这里对于具体的申请步骤不做赘述，只是需要提醒各位，你需要有一张信用卡，并且至少有1美元的信用额度
+
+笔者申请的是RHEL6.5的最小实例，如果是ubuntu请查阅[其他](http://blog.banban.me/blog/2014/06/09/li-yong-awsmian-fei-zhang-hu-da-jian-vpn/)blog
+
+#登录AWS EC2主机
+
+笔者使用的是putty，具体步骤请参看此[blog](http://leonax.net/p/3280/connect-amazon-ec2-instance-through-putty/)
+
+#搭建HTTP代理服务器
+
+笔者使用的是Squid，具体步骤请参看此[blog](http://www.openlogic.com/wazi/bid/188039/)
+
+需要注意的是，此[blog](http://www.openlogic.com/wazi/bid/188039/)包括病毒检测模块，另外不要我忘记在AWS的console把端口打开（3127）
+
+源码安装c-icap时需要注意安装地址`./configure --prefix=/usr/local/c-icap --enable-large-files`
+
+源码编译SquidClamav时`./configure`需要添加参数`--with-c-icap`,例如`./configure --with-c-icap=/usr/local/c-icap/`
+
+#搭建VPN服务器
+
+笔者使用的是pptpd，具体步骤请参看此[blog](http://blog.banban.me/blog/2014/06/09/li-yong-awsmian-fei-zhang-hu-da-jian-vpn/)
+
+同样不要忘记打开对应端口
+
+#总结
+
+总之，代理服务器速度很快，但是会时不时的抽风，VPN相对稳定，但是速度会差很多。
+
+对于手机用户，建议首选vpn，因为可以不用root，不用安装第三方软件，而且手机本身的流速也不快。
+
+对于PC来说，建议使用代理服务器，当你需要的paper或者document或者source无法访问时，快速切换一下代理服务器，然后get一下就可以了。
+
+另外，作为辅助，给大家推荐一个chrome下的代理切换插件“SwitchySharp”
