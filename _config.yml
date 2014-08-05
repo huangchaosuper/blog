@@ -1,11 +1,18 @@
-name: HC | BLOG
-markdown: redcarpet
-redcarpet:
-  extensions: ["fenced_code_blocks", "autolink", "tables", "strikethrough"]
-pygments: true
-safe: true
+# Site settings
+title: HC | BLOG
+email: huangchaosuper@gmail.com
+keywords: "科学,技术,数学,数据挖掘,机器学习,算法,构架,解决方案."
+description: "Geek's World"
+
+baseurl: ""
 url: "http://blog.huangchaosuper.cn"
+twitter_username: huangchaosuper
+github_username:  huangchaosuper
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
 about: "http://huangchaosuper.cn"
-#url: "http://localhost:4000"
 encoding: UTF-8
 excerpt_separator: "\n"

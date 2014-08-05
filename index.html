@@ -1,28 +1,28 @@
---- 
-layout: default 
-title: HC Blog 
+---
+layout: default
+title: HC BLOG
 ---
 
 <p class="pull-right visible-xs">
-	<button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">Toggle nav</button>
+  <button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">Toggle nav</button>
 </p>
 <div id="highchart" ></div>
 <div class="row">
-	{% for post in site.posts %}
-	<div class="col-sm-6 col-md-4">
-		<div class="thumbnail">
-			<div class="caption">
-				<h4><a href="{{site.url}}{{ post.url }}">{{ post.title }}</a></h4>
-				<hr>
-				<p>{{ post.excerpt }}</p>
-			</div>
-		</div>
-	</div>
-	{% endfor %}
+  {% for post in site.posts %}
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <div class="caption">
+        <h4><a href="{{ '' | prepend: site.baseurl | prepend: post.url}}">{{ post.title }}</a></h4>
+        <hr>
+        <p>{{ post.excerpt }}</p>
+      </div>
+    </div>
+  </div>
+  {% endfor %}
 </div>
 
 <script src="http://code.highcharts.com/highcharts.js"></script>
 <script src="http://code.highcharts.com/highcharts-3d.js"></script>
 <script src="http://code.highcharts.com/modules/exporting.js"></script>
-<script src="{{site.url}}/js/index.js"></script>
+<script src="{{ '/js/index.js' | prepend: site.baseurl }}"></script>
 <!--/row-->
