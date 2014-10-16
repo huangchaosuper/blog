@@ -69,7 +69,7 @@ $ curl -sSL https://get.docker.io/ubuntu/ | sudo sh
 #验证
 
 ```
-$ sudo docker run -i -t ubuntu /bin/bash
+$ sudo docker run -i -t huangchaosuper/ubuntu /bin/bash
 ```
 
 这个步骤将会从dockerhub下载ubuntu的最新image然后启动image生成实例，并进入bash脚本状态。
