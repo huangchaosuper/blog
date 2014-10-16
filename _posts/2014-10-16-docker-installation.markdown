@@ -33,6 +33,7 @@ $ sudo apt-get install docker.io
 $ sudo ln -sf /usr/bin/docker.io /usr/local/bin/docker
 $ sudo sed -i '$acomplete -F _docker docker' /etc/bash_completion.d/docker.io
 ```
+
 如果你想安装最新版本的docker.io也是可以的。
 
 首先，检测系统是否安装apt-transport-https这个包，如果不存在，则需要首先安装
@@ -59,7 +60,7 @@ $ sudo apt-get update
 $ sudo apt-get install lxc-docker
 ```
 
-`其实也有一个简单的方法，那就是使用curl，不过理论上这种方法会有安全隐患`
+其实也有一个简单的方法，那就是使用curl，不过理论上这种方法会有安全隐患
 
 ```
 $ curl -sSL https://get.docker.io/ubuntu/ | sudo sh
