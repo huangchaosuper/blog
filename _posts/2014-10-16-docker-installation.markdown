@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "1、Docker的安装"
+title: "[1]Docker的安装"
 date: 2014-10-16 22:25:00
 categories: tech
 tags: devops docker
