@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[2]Docker的安装"
+title: "[2]Docker Hub的使用"
 date: 2014-10-17 21:35:00
 categories: tech
 tags: devops docker
