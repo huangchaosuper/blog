@@ -7,9 +7,10 @@ tags: devops docker
 ---
 
 
+这一节主要是快速介绍[Docker Hub](https://hub.docker.com/),包括创建账户.
+
 #Docker Hub的使用
 
-这一节主要是快速介绍[Docker Hub](https://hub.docker.com/),包括创建账户.
 
 Docker Hub是一个Docker的中心资源服务，Docker Hub可以更加有利于我们彼此合作获取更加丰富的Docker Image资源，它提供一下服务：
 
