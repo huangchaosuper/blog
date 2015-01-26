@@ -22,7 +22,7 @@ kibana4 在beta2阶段还是一个 angularjs 前端配上一个 sinatra 写的 p
 
  - 执行下面的脚本update.sh
 
-```
+{% highlight Bash %}
 git pull
 bower install --allow-root
 cd /opt/kibana/src/server
@@ -32,7 +32,8 @@ for i in `find ../../../ -name '[a-z]*.less'|grep -v bower_components`;do
     ../../../../../node_modules/grunt-contrib-less/node_modules/less/bin/lessc $i ${i/.less/.css/}
 done
 cd ../../../../server/
-```
+{% endhighlight %}
+
 > 其中lessc编译器的路径可能有变化，使用`find`查找
 
 
@@ -50,7 +51,7 @@ cd ../../../../server/
 
  - 修改 package.json 文件 并复制到`/opt/kibana/src/server`
 
-```
+{% highlight JavaScript %}
  {
   "name": "kibana",
   "description": "Kibana is an open source (Apache Licensed), browser based analytics and search dashboard for Elasticsearch. Kibana is a snap to setup and start using. Kibana strives to be easy to get started with, while also being flexible and powerful, just like Elasticsearch.",
@@ -109,13 +110,13 @@ cd ../../../../server/
     "url": "https://github.com/elasticsearch/kibana/issues"
   }
 }
-```
+{% endhighlight %}
 
  - 执行`npm install`
 
  - 执行下面的脚本update.sh
 
-```
+{% highlight Bash %}
 git pull
 bower install --allow-root
 cd /opt/kibana/src/server
@@ -125,7 +126,32 @@ for i in `find ../../../ -name '[a-z]*.less'|grep -v bower_components`;do
     ../../../../../node_modules/grunt-contrib-less/node_modules/less/bin/lessc $i ${i/.less/.css/}
 done
 cd ../../../../server/
-```
+{% endhighlight %}
+
+ - 修改`/opt/kibana/src/server/bin/kibana.sh`文件
+
+{% highlight Bash %}
+ #!/bin/sh
+SCRIPT=$0
+
+# SCRIPT may be an arbitrarily deep series of symlinks. Loop until we have the concrete path.
+while [ -h "$SCRIPT" ] ; do
+  ls=$(ls -ld "$SCRIPT")
+  # Drop everything prior to ->
+  link=$(expr "$ls" : '.*-> \(.*\)$')
+  if expr "$link" : '/.*' > /dev/null; then
+    SCRIPT="$link"
+  else
+    SCRIPT=$(dirname "$SCRIPT")/"$link"
+  fi
+done
+
+DIR=$(dirname "${SCRIPT}")/..
+NODE=/usr/bin/node
+SERVER=/opt/kibana/src/server/bin/kibana.js
+
+CONFIG_PATH="/opt/kibana/src/server/config/kibana.yml" NODE_ENV="production" exec "${NODE}" ${SERVER} ${@}
+{% endhighlight %}
 
 
 >[Kibana4](https://github.com/huangchaosuper/kibana)
