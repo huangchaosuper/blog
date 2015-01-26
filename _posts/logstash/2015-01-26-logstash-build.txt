@@ -126,3 +126,8 @@ for i in `find ../../../ -name '[a-z]*.less'|grep -v bower_components`;do
 done
 cd ../../../../server/
 ```
+
+
+>[Kibana4](https://github.com/huangchaosuper/kibana)
+
+<img class="img-responsive img-thumbnail" src="{{ site.url }}/resources/logstash.png">
