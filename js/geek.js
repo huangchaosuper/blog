@@ -60,7 +60,7 @@ function viewModel() {
 			queryCondition.typeId = typeId;
 		}
 		$.ajax({
-			url:"http://huangchaosuper.duapp.com/service/rss/read",
+			url:"http://rrs-micro.coding.io/service/rss/read",
 			data:queryCondition,
 			async:true,
 			crossDomain : true,
