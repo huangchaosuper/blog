@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Mesos如何支持docker overlay 网络"
-date: 2016-06-08 22:13:00
+date: 2016-06-08 22:03:00
 categories: tech
 tags: mesos overlay docker
 ---
