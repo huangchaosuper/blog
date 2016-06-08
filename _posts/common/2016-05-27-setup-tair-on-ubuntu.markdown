@@ -8,11 +8,11 @@ tags: alibaba
 
 报名参加了[2016阿里中间件性能挑战赛],基于官方教程，做了一个ubuntu版本的tair编译安装教程
 
-#官方版
+>官方版
 
 https://bbs.aliyun.com/read/279531.html?spm=5176.bbsl254.0.0.ChNxgg
 
-#ubuntu版本
+>ubuntu版本
 
 #####安装必要的依赖包
 
