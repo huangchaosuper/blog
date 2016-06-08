@@ -3,7 +3,7 @@ layout: post
 title: "在ubuntu上编译安装tair"
 date: 2016-05-27 22:13:00
 categories: tech
-tags: alibaba
+tags: 竞赛
 ---
 
 报名参加了[2016阿里中间件性能挑战赛],基于官方教程，做了一个ubuntu版本的tair编译安装教程

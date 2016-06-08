@@ -3,7 +3,7 @@ layout: post
 title: "Mesos如何支持docker overlay 网络"
 date: 2016-06-08 22:03:00
 categories: tech
-tags: mesos overlay docker
+tags: devops docker
 ---
 
 Mesos docker overlay network,mesos如何支持docker的overlay网络拓扑结构呢？就让此文成为国内首发吧。
