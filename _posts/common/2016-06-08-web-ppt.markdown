@@ -1,0 +1,24 @@
+---
+layout: post
+title: "创建网页版PPT"
+date: 2014-06-24 11:44:00
+categories: tech
+tags: devops
+---
+
+今天分享一个网页版PPT的解决方案
+
+>DEMO
+
+demo地址：http://ppt.huangchaosuper.cn
+
+>功能简介
+
+README.md自动转换为网页版PPT
+
+>项目地址
+
+https://github.com/huangchaosuper/ppt
+
+
+###后续资源
