@@ -10,7 +10,7 @@ tags: devops
 
 >DEMO
 
-demo地址：http://huangchaosuper.cn/slides
+demo地址：[http://huangchaosuper.cn/slides](http://huangchaosuper.cn/slides)
 
 >功能简介
 
@@ -18,5 +18,5 @@ README.md自动转换为网页版PPT
 
 >项目地址
 
-https://github.com/huangchaosuper/slides
+项目地址：[https://github.com/huangchaosuper/slides](https://github.com/huangchaosuper/slides)
 
